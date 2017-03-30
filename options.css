@@ -1,0 +1,93 @@
+body{
+	background:#F4F0EA;
+	font-family:'Raleway';
+	margin:0;
+	color:#666;
+}
+h1{
+	font-size:24px;
+}
+#container {
+	width:500px;
+	background:#fff;
+	margin:60px auto;
+ 	top:0;
+ 	padding:20px 80px 60px 80px;
+ 	font-weight:500;
+ 	font-size:16px;
+ 	line-height:30px;
+ 	letter-spacing:1px;
+ 	vertical-align:text-top;
+}
+#header {
+	background:#4257B2;
+	width:100%;
+	height:30px;
+	position:fixed;
+	top:0;
+	color:#fff;
+	font-size:26px;
+	font-weight:600;
+	line-height:30px;
+	padding:15px;
+	letter-spacing:1px;
+	text-align:center;
+}
+#login {
+	background:#F4F0EA;
+	height:30px;
+	padding:25px 40px;
+	color:#444;
+	text-decoration:none;
+	line-height:100px;
+	font-size:16px;
+	letter-spacing:3px;
+	text-transform:uppercase;
+	font-weight:500;
+	border-radius:7px;
+}
+#login:hover{
+	background:#E3DFDA;
+}
+input[type="radio"]{
+	-webkit-appearance:none;
+	border:2px solid #ccc;
+	width:15px;
+	height:15px;
+	margin-right:15px;
+	border-radius:8px;
+}
+input[type="radio"]:hover{
+	background:#eee;
+}
+input[type="radio"]:checked{
+	background:#ccc;
+}
+input:focus{
+	outline:none;
+}
+button{
+	-webkit-appearance:none;
+	border-radius:5px;
+	border:3px solid #4257B2;
+	background:#4257B2;
+	color:#fff;
+	padding:15px 20px;
+	margin:20px 15px 15px 0px;
+	font-family:'Raleway';
+	font-weight:600;
+	letter-spacing:1px;
+	font-size:15px;
+}
+button:focus{
+	outline:none;
+}
+button:hover{
+	background:none;
+	color:#4257B2;
+}
+#status{
+	color:#6FBC69;
+	margin-top:-5px;
+	position:absolute;
+}

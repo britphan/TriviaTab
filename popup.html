@@ -1,0 +1,69 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+<script type = "text/javascript" src="jquery-3.0.0.min.js"></script>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 14px;
+        width:270px;
+        height:auto;
+        margin-left:0;
+        color:#333;
+      }
+      #status {
+        /* avoid an excessively wide status te  xt */
+        white-space: pre;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 400px;
+      }
+      #header {
+        background:#4257B2;
+        width:100%;
+        height:25px;
+        position:fixed;
+        top:0;
+        color:#fff;
+        font-size:18px;
+        line-height:30px;
+        padding:10px 0;
+        letter-spacing:1px;
+        text-align:center;
+        font-weight:600;
+      }
+      #content {
+        margin-top:35px;
+        padding:15px;
+      }
+      a:link, a:visited, a:active{
+        text-decoration:none;
+        color:#333;
+      }
+    </style>
+
+    <!--  
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+     -->
+  </head>
+  <body>
+  <div id="header">Trivia Tab</div>
+  <div id="content">
+    <p id="user"><b>Quizlet username: </b></p>
+    <p id="current_set"><b>Current set: </b></p>
+    <a id="options" href ="" target="_blank">Options</a>
+  </div>
+  </body>
+  
+    <script src="popup.js"></script>
+</html>
+

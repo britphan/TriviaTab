@@ -1,0 +1,113 @@
+body{
+	font-family:'Raleway';
+	background: url('bg2.jpg') #000;
+	background-size:100%;
+	color:#fff;
+	/*overflow:hidden;*/
+}
+#container {
+	width:50%;
+	margin:0 auto;
+	/*height:400px;*/
+	text-align:center;
+	/*background:#fff;*/
+  position: relative;
+  top: 43%;
+  transform: translateY(-50%);
+}
+#set_info {
+	width:60%;
+	margin: 0 auto;
+	text-align:center;
+	position:relative;
+	top:5%;
+	font-size:24px;
+	font-weight:300;
+	letter-spacing:4px;
+	text-shadow:0px 0px 50px #000;
+	text-transform: uppercase;
+	line-height:35px;
+}
+#set_name {
+	font-size:24px;
+	font-weight:300;
+	letter-spacing:4px;
+	text-shadow:0px 0px 50px #000;
+	padding-bottom:7px;
+	text-transform: uppercase;
+	border-bottom:1px solid white;
+	text-decoration:none;
+	color:white;
+}
+#question {
+	font-size:40px;
+	font-weight:600;
+	letter-spacing:3px;
+	text-shadow:0px 0px 50px #000;
+}
+#correct {
+	font-size:36px;
+	font-weight:500;
+	letter-spacing:2px;
+	text-shadow:0px 0px 40px #000;
+	border:4px solid white;
+	padding:10px;
+	text-align:center;
+	width:60%;
+	margin: 0 auto 40px auto;
+}
+#answer {
+	background:none;
+	border:0px;
+	border-bottom:4px solid white;
+	width:65%;
+	font-size:36px;
+	font-weight:400;
+	letter-spacing:3px;
+	text-shadow:0px 0px 40px #000;
+	color:#fff;
+	font-family:'Raleway';
+	padding:10px;
+}
+#alert{
+	width:15px;
+	height:15px;
+	border:4px solid white;
+	border-radius:27px;
+	padding:15px;
+	position:absolute;
+	font-weight:700;
+	line-height:15px;
+	font-size:32px;
+	margin:10px 20px;
+	text-shadow:0px 0px 30px #000;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  	color:white;
+  	opacity:0.4;
+	font-style:italic;
+}
+#results {
+	background:#fff;
+	font-size:24px;
+	font-weight:400;
+	letter-spacing:3px;
+	color:#000;
+	font-family:'Raleway';
+	padding: 15px 40px;
+	border:4px solid white;
+	margin-top:30px;
+	transition:0.4s;
+}
+#results:hover {
+	background:none;
+	color:white;
+	text-shadow:0px 0px 20px #000;
+	transition:0.4s;
+}
+#answer:focus{
+	outline:none;
+}
+button:focus{
+	outline:none;
+}
